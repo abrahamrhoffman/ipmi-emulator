@@ -26,9 +26,7 @@ The script interacts directly with KVM. Reboot machines, change boot order, PXE 
             --with-pythoninstall=/opt/openipmi/usr/lib/python
       make && make install
       
-If you received the following errors while compiling: 
-'/usr/bin/ld: cannot find -lOpenIPMIutils'
-export CC="gcc -lrt" and reconfigure
+- If you received the following errors while compiling: '/usr/bin/ld: cannot find -lOpenIPMIutils' . export CC="gcc -lrt" and reconfigure
 
 3) Configure the IPMI simulator:
 - qemu-img create -f qcow2 -o size=1G /opt/KVM/disk1.qcow2
