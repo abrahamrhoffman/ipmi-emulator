@@ -4,7 +4,7 @@ Emulator for the Intelligent Platform Management Interface (IPMI) on KVM
 <b>Background</b><br>
 The Intelligent Platform Management Interface (IPMI), is a standard interface for Independant Lights Out (ILO) and the Dell Remote Access Controllers (DRAC). Although newer APIs extist for controlling physical servers out-of-band, this remains the current market leader. For those interested in the latest standard, you can read about the DMTF's RedFish standard here: https://www.dmtf.org/standards/redfish <br>
 <br>
-<b>Purpose</b>
+<b>Purpose</b><br>
 Those interested in exploring the ipmi API and interface, but without access to an ILO / DRAC, or other out-of-band management device, this is for you! I found myself interested in testing a scaled down version of OpenStack Ironic (called BiFrost), but I did not want to interrupt current DHCP settings.<br>
 <br>
 <b>Design</b><br>
