@@ -1,7 +1,7 @@
 # ipmi-emulator
 Emulator for the Intelligent Platform Management Interface (IPMI) on KVM
-<br>
-<b>Background</b>
+<br><br>
+<b>Background</b><br>
 The Intelligent Platform Management Interface (IPMI), is a standard interface for Independant Lights Out (ILO) and the Dell Remote Access Controllers (DRAC). Although newer APIs extist for controlling physical servers out-of-band, this remains the current market leader. For those interested in the latest standard, you can read about the DMTF's RedFish standard here: https://www.dmtf.org/standards/redfish <br>
 <br>
 <b>Purpose</b>
