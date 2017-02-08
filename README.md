@@ -7,7 +7,7 @@ The Intelligent Platform Management Interface (IPMI), is a standard interface fo
 <b>Purpose</b>
 Those interested in exploring the ipmi API and interface, but without access to an ILO / DRAC, or other out-of-band management device, this is for you! I found myself interested in testing a scaled down version of OpenStack Ironic (called BiFrost), but I did not want to interrupt current DHCP settings.<br>
 <br>
-<b>Design</b>
+<b>Design</b><br>
 The script interacts directly with KVM. Reboot machines, change boot order, PXE boot and view console logs.
 
 <b>Dependencies</b>
